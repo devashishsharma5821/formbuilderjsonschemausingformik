@@ -1,0 +1,41 @@
+{
+  "name": {
+    "type": "text",
+    "label": "Name",
+    "required": true,
+    "errormessage": "Name is required"
+  },
+  "middlename": {
+    "type": "text",
+    "label": "middle name",
+    "errormessage": "middle name is required"
+  },
+  "lastname": {
+    "type": "text",
+    "label": "Last name",
+    "required": true,
+    "errormessage": "Last name is required"
+  },
+  "email": {
+    "type": "email",
+    "label": "Email",
+    "required": true,
+    "errormessage": "email is required"
+  },
+  "role": {
+    "type": "select",
+    "label": "Role",
+    "required": true,
+    "errormessage": "please select any role is required",
+    "options": [
+      {
+        "label": "Admin",
+        "value": "admin"
+      },
+      {
+        "label": "User",
+        "value": "user"
+      }
+    ]
+  }
+}
